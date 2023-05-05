@@ -28,7 +28,7 @@ const TabNavigator = () => {
             }}/>
             <Tab.Screen name='Search' component={SettingScreen} options={{
                 tabBarIcon: ({ color, size }) => (
-                    <Feather name="settings" size={size} color={color} />
+                    <Feather name="search" size={size} color={color} />
                 )
             }}/>
             <Tab.Screen name='Notifications' component={NotificationScreen} options={{
